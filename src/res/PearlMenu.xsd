@@ -1,0 +1,52 @@
+<prl:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+			targetNamespace="http://www.pearl.com" xmlns:pearl="http://www.pearl.com" xmlns:prl="http://www.w3.org/2001/XMLSchema">
+  <prl:element name="pearl" type="pearl:pearlType">
+    <prl:complexType>
+      <prl:sequence>
+        <prl:element name="subpearl" type="pearl:subpearlType" maxOccurs="unbounded" minOccurs="1">
+          <prl:complexType mixed="true">
+            <prl:sequence>
+              <prl:element name="dish" type="pearl:dishType" maxOccurs="unbounded" minOccurs="0">
+                <prl:complexType>
+                  <prl:sequence>
+                    <prl:element type="prl:string" name="picture"/>
+                    <prl:element type="prl:string" name="title"/>
+                    <prl:element name="specification" maxOccurs="unbounded" minOccurs="0">
+                      <prl:complexType>
+                        <prl:simpleContent>
+                          <prl:extension base="prl:string">
+                            <prl:attribute type="prl:byte" name="id" default="1" use="required"/>
+                          </prl:extension>
+                        </prl:simpleContent>
+                      </prl:complexType>
+                    </prl:element>
+                    <prl:element name="additive" maxOccurs="unbounded" minOccurs="0">
+                      <prl:complexType>
+                        <prl:simpleContent>
+                          <prl:extension base="prl:string">
+                            <prl:attribute type="prl:byte" name="id" default="1" use="optional"/>
+                          </prl:extension>
+                        </prl:simpleContent>
+                      </prl:complexType>
+                    </prl:element>
+                    <prl:element type="prl:string" name="weight"/>
+                    <prl:element name="price" maxOccurs="unbounded" minOccurs="0">
+                      <prl:complexType>
+                        <prl:simpleContent>
+                          <prl:extension base="prl:string">
+                            <prl:attribute type="prl:byte" name="id" use="required"/>
+                          </prl:extension>
+                        </prl:simpleContent>
+                      </prl:complexType>
+                    </prl:element>
+                  </prl:sequence>
+                </prl:complexType>
+              </prl:element>
+            </prl:sequence>
+            <prl:attribute type="prl:string" name="name" use="required"/>
+          </prl:complexType>
+        </prl:element>
+      </prl:sequence>
+    </prl:complexType>
+  </prl:element>
+</prl:schema>

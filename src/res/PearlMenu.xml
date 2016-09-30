@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pearl 	xmlns="http://www.pearl.com" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.pearl.com pearl.xsd">
+    <subpearl name="Холодные закуски">
+        <dish>
+			<picture>assFish.jpg</picture>
+			<title>Ассорти рыбное</title>
+            <specification>Слабосоленая форель, семга</specification>
+            <weight>100/20/15</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+			<picture>Тартал.jpg</picture>
+			<title>Тарталетки с красной икрой</title>
+            <specification>Тарталетки с красной икрой</specification>
+            <weight>60/50</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>zakuskaRus.jpg</picture>		
+            <title>Закуска по-русски</title>
+            <specification>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</specification>
+            <weight>70/50/2/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>РулетКур.jpg</picture>
+            <title>Куриный рулет</title>
+            <specification>Куриный рулет собственного производства</specification>
+            <weight>100/5</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>basturma.jpg</picture>
+            <title>Бастурма</title>
+            <specification>Вяленая вырезка из говяжьего мяса</specification>
+            <weight>50/5</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>МясноеАссорти.jpg</picture>
+            <title>Ассорти мясное</title>
+            <specification>Нарезка из буженины, бастурмы, куриного рулета собственного произодства и колбасы</specification>
+            <weight>100/30</weight>
+			<price>0</price>
+        </dish>
+		<dish>
+            <picture>YazOTV.jpg</picture>
+            <title>Язык отварной</title>
+            <specification>Нарезка нежного говяжьего языка, подается с хреном</specification>
+            <weight>80/20/1</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>assortiBack.jpg</picture>
+            <title>Ассорти баклажаны</title>
+            <specification id="0">Жареные баклажаны с помидорами</specification>
+            <specification id="1">с помидорами</specification>
+            <specification id="2">с чесноком</specification>
+            <specification id="3">с орехами</specification>
+            <weight>100/5</weight>
+            <price id="0">0</price>
+			<price id="1">0</price>
+			<price id="2">0</price>
+			<price id="3">0</price>
+        </dish>
+        <dish>
+            <picture>solenHome.jpg</picture>
+            <title>Соленья по-домашнему</title>
+            <specification>Маринованные овощи</specification>
+            <weight>150/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>Бабушкино.jpg</picture>
+            <title>Бабушкины угощения</title>
+            <specification>Ассорти из маринованных грибов</specification>
+            <weight>120/20/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>cheesePl.jpg</picture>
+            <title>Сырная тарелка</title>
+            <specification>Сыры Чечел, дор блю, российский, мраморный</specification>
+            <weight>100/5</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>1brynza.jpg</picture>
+            <title>Брынза</title>
+            <specification>Рассольный сыр, изготовляемый из овечьего молока</specification>
+            <weight>75/5</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>Зел.jpg</picture>
+            <title>Зелень</title>
+            <specification>Кинза, лук, петрушка, укроп, базилик</specification>
+            <weight>30</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>assortiOv.jpg</picture>
+            <title>Ассорти овощное</title>
+            <specification>Свежие помидоры, болгарский перец, огурцы, редис и зелень</specification>
+            <weight>150/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>Byket.jpg</picture>
+            <title>Овощной букет</title>
+            <specification>Корейская морковь, капуста, фунчоза</specification>
+            <weight>150/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>ArmyanOv.jpg</picture>
+            <title>Овощи по-армянски</title>
+            <specification>Мелко нарезанные свежие помидоры, огурцы, болгарский перец, укроп, базилик, кинза, лист салата,зелень</specification>
+            <weight>150/40</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>seniorTom.jpg</picture>
+            <title>Сеньор помидор</title>
+            <specification>Помидор, фаршированный сырным муссом</specification>
+            <weight>150/1</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>СалатФест.jpg</picture>
+            <title>Фестиваль салатов</title>
+            <weight>400/10</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>olives.jpg</picture>
+            <title>Оливки, маслины</title>
+            <weight>50</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>lemon.jpg</picture>
+            <title>Лимон</title>
+            <weight>60</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>maconi.jpg</picture>
+            <title>Мацони</title>
+            <weight>300</weight>
+			<price>0</price>
+        </dish>
+    </subpearl>
+    <subpearl name="Горячие закуски">
+        <dish>
+            <picture>lobioSham.jpg</picture>
+            <title>Лобио с шампиньонами</title>
+            <specification>Фасоль с шампиньонами и грецким орехом</specification>
+            <weight>150/5</weight>
+            <price>105</price>
+        </dish>
+        <dish>
+            <picture>julio.jpg</picture>
+            <title>Жульен</title>
+            <specification id="1">с курицей</specification>
+            <specification id="2">с грибами</specification>
+            <weight>120/1</weight>
+            <price id="1">145</price>
+            <price id="2">155</price>
+        </dish>
+        <dish>
+            <picture>ahtamarMeat.jpg</picture>
+            <title>Ахтамар мясной</title>
+            <specification>Колбаса, ветчина, буженина, сыр, запеченые на магале в лаваше</specification>
+            <weight>1 шт.</weight>
+            <price>165</price>
+        </dish>
+        <dish>
+            <picture>ahtamarVeg.jpg</picture>
+            <title>Ахтамар с овощами</title>
+            <specification>Сыр, помидоры, зелень, запеченые на мангале в лаваше</specification>
+            <weight>1 шт.</weight>
+            <price>150</price>
+        </dish>
+        <dish>
+            <picture>surprise.jpg</picture>
+            <title>Сюрприз</title>
+            <weight>1 шт.</weight>
+            <price>260</price>
+        </dish>
+        <dish>
+            <picture>krev.jpg</picture>
+            <title>Креветки</title>
+            <specification id="1">отварные</specification>
+            <specification id="2">жареные</specification>
+            <weight>120/30</weight>
+            <price id="1">135</price>
+            <price id="2">155</price>
+        </dish>
+        <dish>
+            <picture>midii.jpg</picture>
+            <title>Мидии по-турецки</title>
+            <specification>Мидии, фаршированные сыром и грецким орехом</specification>
+            <weight>150/30</weight>
+            <price>190</price>
+        </dish>
+        <dish>
+            <picture>escargoX.jpg</picture>
+            <title>Эскарго</title>
+            <specification>Виноградные улитки, фаршированные по-бургундски</specification>
+            <weight>12 шт.</weight>
+            <price>230</price>
+        </dish>
+    </subpearl>
+    <subpearl name="Завтраки">
+        <dish>
+            <picture>glazynia.jpg</picture>
+            <title>Глазунья</title>
+            <specification>2 яйца (на выбор: ветчина, сыр, помидоры)</specification>
+            <weight>150</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>omlet.jpg</picture>
+            <title>Омлет</title>
+            <weight>100</weight>
+			<price>0</price>
+        </dish>
+        <dish>
+            <picture>blinchiki.jpg</picture>
+            <title>Блинчики с мясом</title>
+            <specification>Жареные блинчики с мясом</specification>
+            <weight>150</weight>
+			<price>0</price>
+        </dish>
+    </subpearl>
+	<subpearl name="Салаты"></subpearl>
+	<subpearl name="Супы"></subpearl>
+	<subpearl name="Рыбные блюда"></subpearl>
+	<subpearl name="Мясные блюда"></subpearl>
+	<subpearl name="Гарниры"></subpearl>
+	<subpearl name="Блюда на мангале"></subpearl>
+	<subpearl name="От шеф-повара"></subpearl>
+	<subpearl name="Приложение"></subpearl>
+	<subpearl name="Десерт"></subpearl>
+</pearl>

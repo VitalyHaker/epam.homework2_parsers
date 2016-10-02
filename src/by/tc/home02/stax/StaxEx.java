@@ -24,7 +24,7 @@ public class StaxEx {
                 System.out.println(subPearl.getName());
                 for (Dish dish : subPearl.getList()) {
                     System.out.println(dish.getTitle()+"   "
-        					+ "Описание:"+dish.getSpecification()+"   Цена:"+dish.getPrice());
+        					+ "|   Описание: "+dish.getSpecification()+"   |   Цена: "+dish.getPrice());
                 }
             }
         } catch (XMLStreamException e) {
@@ -35,8 +35,6 @@ public class StaxEx {
     private static List<SubPearl> process(XMLStreamReader reader) throws XMLStreamException {
         List<SubPearl> menu = new ArrayList<SubPearl>();
         List<Dish> dishList = new ArrayList<>();
-        List<String> specification = new ArrayList<>();
-        List<Integer> price = new ArrayList<>();
         SubPearl subPearl = null;
         Dish dish = null;
         PearlTagName elementName = null;
@@ -54,16 +52,8 @@ public class StaxEx {
                             break;
                         case SUBPEARL:
                         	subPearl = new SubPearl();
+                        	subPearl.setName(reader.getAttributeValue(null, "name"));
                             dishList = new ArrayList<>();
-                            break;
-                    }
-                    break;
-                case XMLStreamConstants.ATTRIBUTE:
-
-                    switch (elementName) {
-                        case SUBPEARL:
-                            String text = reader.getAttributeValue(1);
-                            subPearl.setName(text);
                             break;
                     }
                     break;
@@ -80,15 +70,14 @@ public class StaxEx {
                             dish.setTitle(text);
                             break;
                         case SPECIFICATION:
-                            dish.setSpecification(specification);
-                            specification.add(text);
+                            dish.setSpecification(text);
                             break;
                         case WEIGHT:
                             dish.setWeight(text);
                             break;
                         case PRICE:
+                        	Integer price = Integer.parseInt(text);
                             dish.setPrice(price);
-                            price.add(Integer.parseInt(text));
                             break;
                     }
                     break;

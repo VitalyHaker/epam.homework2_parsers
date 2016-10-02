@@ -1,15 +1,12 @@
 package by.tc.home02.stax;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Dish {
     private String picture;
 	private String title;
-	private List<String> specification;
+	private String specification;
 	private String weight;
-    private List<Integer> price;
-    private List<String> free = new ArrayList<>();
+    private Integer price;
+    private String free = "";
 
 	public Dish(){}
 	
@@ -21,22 +18,22 @@ public class Dish {
 		this.title = title;
 	}
 
-	public List<Integer> getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	public void setPrice(List<Integer> price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 
-	public List<String> getSpecification() {
+	public String getSpecification() {
 		if (specification != null){
 			return specification;
 		}
 		else return free;		
 	}
 
-	public void setSpecification(List<String> specification) {
+	public void setSpecification(String specification) {
 		this.specification = specification;
 	}
 

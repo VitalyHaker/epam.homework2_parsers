@@ -55,12 +55,12 @@
         <dish>
             <picture>assortiBack.jpg</picture>
             <title>Ассорти баклажаны</title>
-            <specification>Жареные баклажаны с помидорами</specification>
-            <additive id="1">с помидорами</additive>
-            <additive id="2">с чесноком</additive>
-            <additive id="3">с орехами</additive>
+            <specification id="0">Жареные баклажаны с помидорами</specification>
+            <specification id="1">с помидорами</specification>
+            <specification id="2">с чесноком</specification>
+            <specification id="3">с орехами</specification>
             <weight>100/5</weight>
-            <price>0</price>
+            <price id="0">0</price>
 			<price id="1">0</price>
 			<price id="2">0</price>
 			<price id="3">0</price>

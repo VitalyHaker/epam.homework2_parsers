@@ -13,10 +13,10 @@ public class Text {
 
 	@Override
 	public int hashCode() {
-		final int prime = 12;
-		int result = 1;
-		result = prime * result + ((textContent == null) ? 0 : textContent.hashCode());
-		return result;
+		final int ti = 12;
+		int res = 1;
+		res = ti * res + ((textContent == null) ? 0 : textContent.hashCode());
+		return res;
 	}
 
 	@Override

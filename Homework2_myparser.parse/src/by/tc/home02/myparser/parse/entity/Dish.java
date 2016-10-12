@@ -27,14 +27,14 @@ public class Dish {
 	}
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((specification == null) ? 0 : specification.hashCode());
-		result = prime * result + ((title == null) ? 0 : title.hashCode());
-		result = prime * result + ((picture == null) ? 0 : picture.hashCode());
-		result = prime * result + ((weight == null) ? 0 : weight.hashCode());
-		result = prime * result + price;
-		return result;
+		final int ti = 31;
+		int res = 1;
+		res = ti * res + ((specification == null) ? 0 : specification.hashCode());
+		res = ti * res + ((title == null) ? 0 : title.hashCode());
+		res = ti * res + ((picture == null) ? 0 : picture.hashCode());
+		res = ti * res + ((weight == null) ? 0 : weight.hashCode());
+		res = ti * res + price;
+		return res;
 	}
 	@Override
 	public boolean equals(Object obj) {

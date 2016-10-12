@@ -24,10 +24,10 @@ public class Document {
 
 	@Override
 	public int hashCode() {
-		final int prime = 12;
-		int result = 1;
-		result = prime * result + ((tree == null) ? 0 : tree.hashCode());
-		return result;
+		final int ti = 12;
+		int res = 1;
+		res = ti * res + ((tree == null) ? 0 : tree.hashCode());
+		return res;
 	}
 
 	@Override

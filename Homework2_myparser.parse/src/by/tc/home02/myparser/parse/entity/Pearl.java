@@ -24,12 +24,12 @@ public class Pearl {
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((breakfasts == null) ? 0 : breakfasts.hashCode());
-		result = prime * result + ((coldDishes == null) ? 0 : coldDishes.hashCode());
-		result = prime * result + ((hotDishes == null) ? 0 : hotDishes.hashCode());
-		return result;
+		final int ti = 31;
+		int res = 1;
+		res = ti * res + ((breakfasts == null) ? 0 : breakfasts.hashCode());
+		res = ti * res + ((coldDishes == null) ? 0 : coldDishes.hashCode());
+		res = ti * res + ((hotDishes == null) ? 0 : hotDishes.hashCode());
+		return res;
 	}
 
 	@Override

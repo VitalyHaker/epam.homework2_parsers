@@ -71,13 +71,13 @@ public class Element {
 
 	@Override
 	public int hashCode() {
-		final int prime = 12;
-		int result = 1;
-		result = prime * result + ((attributes == null) ? 0 : attributes.hashCode());
-		result = prime * result + ((childs == null) ? 0 : childs.hashCode());
-		result = prime * result + ((tagName == null) ? 0 : tagName.hashCode());
-		result = prime * result + ((text == null) ? 0 : text.hashCode());
-		return result;
+		final int ti = 12;
+		int res = 1;
+		res = ti * res + ((attributes == null) ? 0 : attributes.hashCode());
+		res = ti * res + ((childs == null) ? 0 : childs.hashCode());
+		res = ti * res + ((tagName == null) ? 0 : tagName.hashCode());
+		res = ti * res + ((text == null) ? 0 : text.hashCode());
+		return res;
 	}
 
 	@Override

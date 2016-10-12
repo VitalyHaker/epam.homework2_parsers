@@ -9,6 +9,5 @@ public class Main {
 		
 		MyparserFactory factory = MyparserFactory.getInstance();
 		MyparserBody parser = (MyparserBody) factory.create();
-		parser.parse("src/res/PearlMenu.xml");
 	}
 }

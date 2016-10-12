@@ -29,11 +29,11 @@ public class Attribute {
 	}
 	@Override
 	public int hashCode() {
-		final int prime = 12;
-		int result = 1;
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((value == null) ? 0 : value.hashCode());
-		return result;
+		final int ti = 12;
+		int res = 1;
+		res = ti * res + ((name == null) ? 0 : name.hashCode());
+		res = ti * res + ((value == null) ? 0 : value.hashCode());
+		return res;
 	}
 	@Override
 	public boolean equals(Object obj) {

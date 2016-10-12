@@ -22,9 +22,9 @@ import by.tc.home02.myparser.service.Myparser;
 public class MyparserBody implements Myparser {
 	private static final String content = "(<((/?)([\\w:\\-]+)((([ \\s]+)([\\w:\\-]+)=(\"[\\.\\w\\-:/ ]+\"))*))>)|"
 	+ "([/à-ÿÀ-ß\\., :\\w\\-&&[^<>]]+<)";
-	private static final String beginTag = "<";
 	private static final String charset = "UTF-8";
 	private static final String slash = "/";
+	private static final String beginTag = "<";
 
 	public Document parse(String fileName) {
 		PushbackReader pb = null;
